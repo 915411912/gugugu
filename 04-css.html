@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS 盒模型、背景、文字排版</title>
+    <style>
+        body {
+            margin: 20px;
+            padding: 30px;
+        }
+        div {
+            background-image: linear-gradient(rgb(251, 230, 250),rgb(172, 136, 175));
+            width: 200px;
+            height: 200px;
+            border: 8px rgb(194, 165, 207) solid;
+            margin-left: auto;
+            margin-top: 100px;
+            margin-right: auto;
+            border-radius: 10px 20pt;
+            box-shadow: 20px 20px 50px 0 rgb(180, 166, 183);
+        }
+        div p {
+            margin: 0;
+            line-height: 200px;
+            text-align: center;
+            font-size: 48px;
+            font-weight: 600;
+            color: #836993;
+        }
+        .text {
+            text-indent: 2em;
+            line-height: 1.7;
+            font-family: "华文行楷";
+            font-size: 32px;
+            font-weight: 300;
+            text-align: justify;
+            letter-spacing: 1px;
+        }
+        span {
+            text-decoration: rgb(86, 2, 73) wavy underline;
+            letter-spacing: 10px;
+            background-color: antiquewhite;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <p>2024</p>
+    </div>
+    <p class="text">
+        熟悉利物浦情况的记者<span>Neil Jones</span>在<span>Caught Offside</span>的专栏中表示，
+        穆西亚拉是利物浦目前唯一感兴趣的拜仁球员，不过他认为球员今夏还是会留队。
+        日前有报道表示拜仁的一些球星可能会在今夏被出售，并早已经出现在其他俱乐部的名单上，
+        最近几周也有一些人选和利物浦的联系越来越密切。不过据Neil Jones的消息，利物浦真正感兴趣的拜仁球星只有一人。
+        就是穆西亚拉，Neil Jones表示：“我知道，拜仁无论如何想要留住他。
+        但我也知道几乎所有顶级俱乐部，包括利物浦在内，都会在他想离开时加入对话。”
+    </p>
+</body>
+</html>
